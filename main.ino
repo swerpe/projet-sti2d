@@ -48,10 +48,7 @@ int main(){
   unsigned long startedTime = 0;
   int currentSpeed = 0;
   
-  Serial.begin(9600);
-  Serial.println("salut");
   while (true){
-    Serial.println("true");
     // On récupère l'état des boutons et on regarde si appuyé:
     if(digitalRead(up) && digitalRead(down)){ // Si les 2 boutons sont appuyés
 
